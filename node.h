@@ -11,7 +11,7 @@
 struct node
 {
     int value;
-    struct node *next;
+    struct node *next, *prev;
 };
 
 #endif /* node_h */
